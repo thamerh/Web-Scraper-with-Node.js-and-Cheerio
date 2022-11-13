@@ -1,0 +1,27 @@
+{
+  "name": "web-scraper-with-node.js-and-cheerio",
+  "version": "1.0.0",
+  "description": "Build a Web Scraper with Node.js and Cheerio for get data information for article from E-commerce website ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thamerh/Web-Scraper-with-Node.js-and-Cheerio.git"
+  },
+  "author": "Thamer Hamdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thamerh/Web-Scraper-with-Node.js-and-Cheerio/issues"
+  },
+  "homepage": "https://github.com/thamerh/Web-Scraper-with-Node.js-and-Cheerio#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2"
+  }
+}
